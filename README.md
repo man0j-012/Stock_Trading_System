@@ -22,7 +22,7 @@ Based on systems-programming principles in **concurrency, synchronization, and o
 ---
 
 ## Features
-### Core Functionality ✅
+### Core Functionality 
 - **Multi-Threaded Matching Engine**  
   Processes thousands of buy/sell orders concurrently using thread-safe queues.  
 - **C++20 Concurrency**  
