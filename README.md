@@ -108,7 +108,19 @@ Total matched quantity: 42491
 - *Thread Safety:* Ensures concurrent order submissions without data races.  
 - *Price–Time Priority:* Higher price and earlier timestamp get execution preference.  
 - *Extensibility:* Designed for new order types (e.g., Stop-Loss) via subclassing.  
-- *Maintainability:* Separation of concerns between matching logic, threading, and data models.  
+- *Maintainability:* Separation of concerns between matching logic, threading, and data models.
+
+---
+  
+### Images
+## 🏗 Architecture Diagram
+
+![System Architecture](Sequence_Diagram.png)
+
+## ⚙️ Matching Engine Flow
+
+![Matching Engine Flow](Class_Diagram.png)
+
 
 ---
 
